@@ -1,0 +1,106 @@
+*{transition: all .1s ease-in;}
+.container{
+    margin: 0;
+    padding: 0;
+    font-family:\'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    font-size:;
+    color:#fff;
+    border: 23px solid #fff;
+    background-color:#363D43;
+}
+header{
+    background-color:#464E56;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+.heading{
+    color:#FF7F80;
+    text-align: center;
+    margin: 0 auto;
+}
+.heading_text{
+    color:#FF7F80;
+    text-align: center;
+}
+
+.main{
+    padding:40px 195px 102px 196px;
+}
+.shp_list ul{
+    padding-left: 0 ;
+    height: 386px;
+}
+.shp_list_products{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 18px;
+    padding-bottom: 22px;
+    padding-top: 20px;
+}
+.shp_list_products:nth-child(even){
+    background-color:#7D7695;
+}
+.shp_list_products:nth-child(odd){
+    background-color:#8B84A0;
+}
+.shp_list_products:after{
+    font-size: 13px;
+    color: #DCDCDC;
+    vertical-align: middle;
+}
+
+
+.shp_list_products:first-child:after{
+    content: " (for the next lesson about CSS)";
+}
+.shp_list_products:nth-child(2):after{
+    content: " (for more CSS manipulations)";
+}
+.shp_list_products:nth-child(3):after{
+    content:" (becouse they are awesome)";
+}
+.shp_list_products:nth-child(4):after{
+    content:" (hm... they alweys disappear)";
+}
+.shp_list_products:nth-child(5):after{
+    content: " ";
+}
+.shp_list_products:nth-child(6):after{
+    content: " (for my friends)";
+}
+
+.shp_list_products:before{
+    content: " ";
+}
+
+.shp_list_products:hover{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    background-color:#635E79;
+
+    
+}
+.shp_list_products:active{
+    background-color:#EE897B;
+}
+.shp_list_products:checked{
+    text-decoration: line-through;
+    color:#DCDCDC ;
+}
+
+
+
+.suggestions{
+    color:#FF7F80;
+    text-align: center;
+    background-color:#464E56;
+    height: 73px;
+    padding-top: 26px;
+}
+
+.hello:checked{
+
+    color:red;
+}
